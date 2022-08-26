@@ -12,19 +12,18 @@ body{
 .header{
     height: 3.125em;
     background: #191919;
-    border-radius: 0px;
-    padding: 0;
-    margin: 0;
+    padding: 0.001em;
 }
 .header p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875em;
     line-height: 1.125em;
     color: #ffff;
     text-align: center;
-    padding: 1.2em;
+    padding: .1em;
+    
 }
 .title-page{
     background: #996B60;
@@ -75,9 +74,18 @@ a.text:hover{
 .close{
     float: right;
     position: relative;
-    top: -45px;
+    top: -30px;
     margin-right: 1.25em;
 }
 .close:hover{
     transform: rotate3d(1, 2.0, 3.0, 45deg);
 }
+.logo-class{
+    padding: 1.5625em;
+    padding-right: 42.375em;
+    padding-left: 42.375em;
+}
+
+    padding-left: 62.625em;
+    padding: 62.625em;
+    margin: 62.625em;
