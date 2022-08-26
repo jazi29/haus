@@ -1,2 +1,2 @@
-# haus
+# Haus
 Haus - Landing Page 
