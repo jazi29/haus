@@ -14,7 +14,7 @@ body{
     background: #191919;
     padding: 0.001em;
 }
-.header p {
+.paragh {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -37,7 +37,7 @@ body{
 .header-wrapper{
     height: 96px;
 }
-
+/*/ Start nav-bar /*/
 .nav-bar{
     float: left;
     font-family: 'Roboto';
@@ -57,7 +57,6 @@ body{
     margin-bottom: 2.5em;
     letter-spacing: 1px;
     text-decoration: none !important;
-    margin-top: 0 .5em;
 }
 .ul-fisrt:first-child:last-child{
     margin-right: 3.75em;
@@ -67,10 +66,22 @@ a.text{
     color: #FFFFFF;
 }
 a.text:hover{
-    transform: scale(2, 0.5);
     color: black;
     transition: 1s;
 }
+.ul-second .li-second{
+    display: inline-block;
+    list-style-type: none;
+    margin: 2.800em;
+    margin-bottom: 2.5em;
+    letter-spacing: 1px;
+    text-decoration: none !important;
+    position: relative;
+    top: -6.2em;
+    left: 76em;
+}
+/*/ End nav-bar /*/
+
 .close{
     float: right;
     position: relative;
@@ -84,8 +95,5 @@ a.text:hover{
     padding: 1.5625em;
     padding-right: 42.375em;
     padding-left: 42.375em;
+    padding-top: 1.5625em;
 }
-
-    padding-left: 62.625em;
-    padding: 62.625em;
-    margin: 62.625em;
